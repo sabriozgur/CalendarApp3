@@ -1,0 +1,75 @@
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.calendar {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(45, 73, 73);
+}
+
+.calendar-day {
+  position: absolute;
+  top: 80px;
+  height: 400px;
+  width: 13%;
+  background-color: rgb(181, 216, 216);
+}
+
+.calendar-day:nth-child(1) {
+  left: 1.5%;
+}
+
+.calendar-day:nth-child(2) {
+  left: 15.5%;
+}
+
+.calendar-day:nth-child(3) {
+  left: 29.5%;
+}
+
+.calendar-day:nth-child(4) {
+  left: 43.5%;
+}
+
+.calendar-day:nth-child(5) {
+  left: 57.5%;
+}
+.calendar-day:nth-child(6) {
+  left: 71.5%;
+}
+
+.calendar-day:nth-child(7) {
+  left: 85.5%;
+}
+
+.button {
+  background-color: lightseagreen;
+  height: 50px;
+  width: 50px;
+}
+
+.prev {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+
+.next {
+  position: absolute;
+  background-color: lightseagreen;
+  top: 3%;
+  left: 93%;
+}
+
+.today {
+  background-color: rgb(118, 143, 143);
+}
+
+.active-day {
+  background-color: rgb(90, 143, 143);
+}
